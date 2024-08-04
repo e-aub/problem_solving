@@ -8,6 +8,10 @@ import (
 var Indices map[int]int
 
 func main() {
+	if len(os.Args) != 2 {
+		fmt.Fprintln(os.Stderr, "The program accepts only one argument")
+		return
+	}
 	commands := os.Args[1]
 	Indices = make(map[int]int)
 	indices(commands)
@@ -51,5 +55,4 @@ func indices(commands string) {
 			stack = stack[:len(stack)-1]
 		}
 	}
-	fmt.Println(Indices)
 }
