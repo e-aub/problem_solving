@@ -1,4 +1,4 @@
-# [Brackets](https://github.com/01-edu/public/tree/master/subjects/brackets) from (01 Edu System)[https://github.com/01-edu/public/tree/master/]
+# [Brackets](https://github.com/01-edu/public/tree/master/subjects/brackets) from [01 Edu System](https://github.com/01-edu/public/tree/master/)
 
 ## Description
 
